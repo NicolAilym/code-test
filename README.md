@@ -37,17 +37,15 @@ The app is already configured to proxy requests to https://doc.strider.tech. Whe
 To run the app:
 
 ```
-npm start
+npm install  & npm install @mui/icons-masterial & npm install  @mui/masterial  & npm install @mui/x-data-grid & npm start
 ```
-**Note:** Instaled   npm install @mui/icons-masterial @mui/masterial @mui/x-data-grid
+
  
 To run the  Express
 
 ```
-cd ..\Express\myapp & npm start
+cd ..\Express\myapp & npm install  & npm install express node-fetch cors & npm start
 ```
-
-**Note:** Instaled  npm install express node-fetch cors
 
 ## About Express
 
