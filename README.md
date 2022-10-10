@@ -30,10 +30,9 @@ When you have completed the assignment, upload the code to GitHub and update the
 
 The app is already configured to proxy requests to https://doc.strider.tech. When you want to hit the endpoint, all you have to do is fetch `/content/receipts.json`.
 
+----
 
 # Nicol's Update
-
-----
 
 To run the app:
 
@@ -54,7 +53,7 @@ cd ..\Express\myapp & npm start
 
 Created a api to get the data... 
 
-End points [http://localhost:8080/..]:
+End points http://localhost:8080/:
    - data  : Load the data
    - customer  : Count the unique customers
    - bestSeller  : Best Seller Item
@@ -62,8 +61,7 @@ End points [http://localhost:8080/..]:
    - orders  : Count the orders
    - customersDetails?id=<value>  : Get the customer's orders
   
-I don't use because I couldn't  fix the async comunication on react to wait the fetch before load a component.
-But I didn't comment the call
+**Note:**  I don't use because I couldn't  fix the async comunication on react to wait the fetch before load a component but I didn't comment the call
 
 ## About React
 

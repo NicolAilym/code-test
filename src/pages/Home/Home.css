@@ -1,0 +1,64 @@
+.cardSummary
+{
+  	height: auto;
+  	width: calc(80% );
+  	text-align: center;
+  	padding: 10px;
+  	margin: 20px !important;
+  	align-items: center;
+  	justify-content: center;
+  	background-color: ghostwhite;
+
+}
+
+h2
+{
+  	font-size: 20px;
+  	text-align: center;
+  	color: #1976d2;
+}
+
+h1
+{
+	margin-left: 20px;
+	text-align: center;
+	color: #1976d2;
+
+}
+
+.avatarSummary
+{
+  	position: relative;
+  	display: inline-flex;
+  	align-items: center;
+  	box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+}
+.avatarDataSummary
+{
+  	font-size: 25px;
+ 	margin-bottom: 15px;
+  	display: inline-flex;
+  	color: #1976d2;
+}
+
+.link
+{
+	  text-decoration: "none";
+    color: "white";
+    font-size: "20px";
+    margin-left: theme.spacing(20);
+    color: "yellow";
+    border-bottom: "1px solid white";
+}
+
+.gridStyle
+{
+  max-width: 95% !important; 
+  height: auto;
+}
+
+.orderDetails
+{
+  border: outset;
+  margin: 10px;
+}
