@@ -31,51 +31,44 @@ When you have completed the assignment, upload the code to GitHub and update the
 The app is already configured to proxy requests to https://doc.strider.tech. When you want to hit the endpoint, all you have to do is fetch `/content/receipts.json`.
 
 
-# Nicol Update
+# Nicol's Update
 
 ----
 
 To run the app:
 
-----
-
-//npm install 
-//npm install @mui/icons-masterial
-//npm install @mui/masterial
-//npm install @mui/x-data-grid
+```
 npm start
-
-----
-
+```
+**Note:** Instaled   npm install @mui/icons-masterial @mui/masterial @mui/x-data-grid
+ 
 To run the  Express
 
-----
+```
+cd ..\Express\myapp & npm start
+```
 
-cd ..\Express\myapp
-// npm install express node-fetch cors
-npm start
+**Note:** Instaled  npm install express node-fetch cors
 
----
-
-##About Express
+## About Express
 
 Created a api to get the data... 
 
 End points [http://localhost:8080/..]:
-  -  data  : Load the data
-  -  customer  : Count the unique customers
-  -  bestSeller  : Best Seller Item
-  -  revenue  : Sum the total
-  -  orders  : Count the orders
-  -  customersDetails?id=<value>  : Get the customer's orders
+   - data  : Load the data
+   - customer  : Count the unique customers
+   - bestSeller  : Best Seller Item
+   - revenue  : Sum the total
+   - orders  : Count the orders
+   - customersDetails?id=<value>  : Get the customer's orders
   
 I don't use because I couldn't  fix the async comunication on react to wait the fetch before load a component.
 But I didn't comment the call
 
-##About React
+## About React
 
 Created 3 tabs:
- - Home: it's a summary of the information, I would like include a char but I didn't have time. Firts a card with summary and higtligth information. 
+1. Home: it's a summary of the information, I would like include a char but I didn't have time. Firts a card with summary and higtligth information. 
  		 Later, a daily sales summary. Finally, the historical orders, that include the order id, customer name, total and quantity items.
- - Customer: has a list of customers, and if you select someone loaded the historical orders.
- - Items: Has two list, first all available items and the second all items and its buy quantity.
+2. Customer: has a list of customers, and if you select someone loaded the historical orders.
+3. Items: Has two list, first all available items and the second all items and its buy quantity.
